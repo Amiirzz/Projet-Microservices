@@ -1,4 +1,4 @@
-# Gestion de Stock — Infrastructure Kubernetes + gRPC
+# Gestion de Stock — Infrastructure Kubernetes + gRPC 
 
 Ce projet est une application de gestion de stock déployée sur un cluster Kubernetes local (**Minikube**). Il permet de gérer des produits (ajout, retrait, consultation de stock) via une architecture micro-services communicant en **gRPC / Protocol Buffers**, exposée au client HTTP via un **Nginx Ingress Controller**.
 
