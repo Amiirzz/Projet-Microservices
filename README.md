@@ -54,7 +54,7 @@ Voici le schéma de flux du projet :
 │               └──────────────────────┘                      │
 │                                                             │
 │  [ RBAC : stock-service-account — lecture seule ]           │
-│  [ Secret Opaque : credentials PostgreSQL chiffrés ]        │
+│  [ Secret Opaque : credentials PostgreSQL (encodés, non chiffrés) ]        │
 └─────────────────────────────────────────────────────────────┘
 ```
 
